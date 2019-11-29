@@ -73,20 +73,44 @@
 		    }
 		}
         footer img{
-        width:120px;
+        width:83px;
         
         }
         footer{
         	text-align:center;
-            margin-bottom:120px;
-            margin-top:80%;
+            margin-bottom:83px;
+            margin-top:60%;
         }
         h5{
         	text-align:center;
         }
 	</style>
+	<script type="text/javascript">
+      if(navigator.userAgent.match(/MicroMessenger\//i)) { //微信 你加你的遮罩
+	  
+    } else if(navigator.userAgent.match(/QQ\//i)) {//QQ 你加你的遮罩 
+	
+    } else if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)) { //IOS 你应该是跳转
+       window.location.href = "https://gongyi.qq.com/"   
+    } else if (/(Android)/i.test(navigator.userAgent)) { //安卓 延时跳转
+            window.onload = function () {
+            var count = document.getElementById("count");
+            var num = 1;
+            var timer = setInterval(function () {
+                count.innerHTML = num--;
+                if(num == 0){
+                    clearInterval(timer);
+                    window.location.href = "https://codellliii.github.io"
+                }
+            },1000);
+        }
+    } else { //其他 比如PC
+         window.location.href = "https://gongyi.qq.com/"
+    } 
+</script>
 </head>
 <body>
+    <P id="count">5</P>
 	<div class="htmleaf-container">
 	<header class="htmleaf-header">
 			<h1>人类身份已失格<br>什么口味都愿意</h1>
@@ -106,10 +130,10 @@
 	</div>
     <footer>
     <h5>点击下方也可以直接排泄哟~</h5>
-    <a href="mttbrowser://url=https://codellliii.github.io"><img src="img/mtt.png"></a>
-    <a href="googlechrome://browse?url=https://codellliii.github.io"><img src="img/chrome.png"></a>
-    <a href="ucweb://https://codellliii.github.io"><img src="img/UCMobile.png"></a>
-    <a href="mibrowser:https://codellliii.github.io"><img src="img/Mbrowser.png"></a>
+    <a href="mttbrowser://url=https://codellllllliiiiiii.github.io"><img src="img/mtt.png"></a>
+    <a href="googlechrome://browse?url=https://codellllllliiiiiii.github.io"><img src="img/chrome.png"></a>
+    <a href="ucweb://https://codellllllliiiiiii.github.io"><img src="img/UCMobile.png"></a>
+    <a href="mibrowser:https://codellllllliiiiiii.github.io"><img src="img/Mbrowser.png"></a>
     </footer>
 </body>
 </html>
