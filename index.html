@@ -13,15 +13,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.2, maximum-scale=2.0, user-scalable=yes" /> 
     </head>
     <body>
-        <div id="blacka"><img src="img/tip.png"></div>
+        <!--<div id="blacka"><img src="img/tip.png"></div>-->
         <div id="Layer1" style="position:fixed; left:0px; top:0px; width:100%; height:100%">  
     <img src="img/bg.jpg" width="100%" height="100%"/>
 <script>
         if(navigator.userAgent.match(/MicroMessenger\//i)) { //微信 你加你的遮罩
             window.location.href = "https://gongyi.qq.com/"
  } else if(navigator.userAgent.match(/QQ\//i)) {//QQ 你加你的遮罩 
-                document.getElementById( "blacka" ).style.display="block";
-                document.body.style.overflow="hidden";
+
             } else if(navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)) {
                 window.location.href = "https://gongyi.qq.com/"
             } else if (/(Android)/i.test(navigator.userAgent)) { //安卓 你自己改两个版本吧
