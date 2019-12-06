@@ -1,0 +1,129 @@
+/* Sintix - Digital Video Gaming and Consol HTML Template  */
+
+/*********** TABLE OF CONTENTS **************
+1. Fonts
+2. Reset
+3. Global
+4. Main Header
+5. Sticky Header
+6. Mobile Menu
+7. Main Slider / Banner Carousel
+8. Latest Games
+9. Sponsors Section
+10. Gallery Section 01
+11. Fun Facts
+12. Customer Reviews / Tesstimonials
+13. Video Section
+14. Featured Games
+15. Team Section
+16. News Section
+17. Main Footer
+18. Gaming Platforms
+19. Watch Trailer
+20. Awards Section
+21. Gallery Secion 02
+22. Featured Game
+23. Parallax Section
+24. FAQs
+25. Home Light Version
+26. Page Banner
+27. About Section
+28. Game Details
+29. Gallery Page
+30. Blog Grid
+31. Blog Default
+32. Sidebar
+33. Blog Details
+34. Map Banner
+35. Contact Info
+36. Contact Form
+
+
+
+**********************************************/
+
+/*** 
+
+====================================================================
+			Fonts
+====================================================================
+
+ ***/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+*/
+
+@import url('fontawesome-all.css');
+@import url('animate.css');
+@import url('flaticon.css');
+@import url('owl.css');
+@import url('jquery-ui.css');
+@import url('jquery.fancybox.min.css');
+@import url('scrollbar.css');
+@import url('hover.css');
+
+/*** 
+
+====================================================================
+	Reset
+====================================================================
+
+ ***/
+
+*{
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+	font-size: 100%;
+	line-height: inherit;
+}
+
+/*** 
+
+====================================================================
+	Global Settings
+====================================================================
+
+ ***/
+
+body {
+	
+	font-size:16px;
+	color:#727489;
+	line-height:1.6em;
+	font-weight:300;
+	background:#0d0e1b;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-family: 'Oswald', sans-serif;
+
+}
+#blacka{
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,0.6);
+	z-index: 100;
+	position: absolute;
+	display: none;
+}
+#web_bg{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-width: 1000px;
+  z-index:-10;
+  zoom: 1;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+
